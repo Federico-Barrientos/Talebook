@@ -3,7 +3,7 @@
     <vue-plyr >
       <audio controls crossorigin playsinline >
         <source
-            src="assets/woodtable.jpg"
+            src="images/CinemaParadiso.mp3"
             type="audio/mp3"
             
         />
