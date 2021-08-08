@@ -1,5 +1,7 @@
 # itau
 
+See [live demo](https://federico-barrientos.github.io/Talebook/).
+
 ## Project setup
 ```
 npm install
