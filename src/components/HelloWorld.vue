@@ -3,7 +3,7 @@
     <vue-plyr >
       <audio controls crossorigin playsinline >
         <source
-            src="/song/CinemaParadiso.mp3"
+            src="assets/woodtable.jpg"
             type="audio/mp3"
             
         />
@@ -114,9 +114,7 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-.container{
-  
-}
+
 li {
   display: inline-block;
   margin: 0 10px;
