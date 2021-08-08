@@ -38,7 +38,7 @@ export default {
       pagesDesktop: [
         null,
         "images/cover.jpg",
-        "images/blank.jpg",
+        "images/blank.png",
         "images/Titulo.png",
         "images/1.png",
         "images/2.png",
