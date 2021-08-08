@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" @keypress="handler($event)">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -11,6 +11,11 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  methods:{
+    handler(event){
+      console.log(event)
+    },
   }
 }
 </script>
@@ -26,6 +31,7 @@ body{
   margin: 0; 
   height: 100vh;
   background-color: aliceblue;
+  background-image: url("assets/woodtable.jpg");
 }
 img{
   width: 100%;
@@ -38,6 +44,5 @@ img{
   text-align: center;
   color: #2c3e50;
   padding-top: 60px;
-  background-color: aliceblue;
 }
 </style>
