@@ -30,8 +30,8 @@ body{
   justify-content: center;
   margin: 0; 
   height: 100vh;
-  background-color: aliceblue;
   background-image: url("assets/woodtable.jpg");
+  background-size: cover;
 }
 img{
   width: 100%;
@@ -43,6 +43,15 @@ img{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  padding-top: 60px;
+  padding-top: 22px;
+}
+:root {
+  --plyr-audio-controls-background:#022;
+  --plyr-audio-control-color: #ffffff;
+  --plyr-audio-controls-background:#022;
+  --plyr-audio-control-background-hover: #022
+
+  
+  
 }
 </style>

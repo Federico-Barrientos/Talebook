@@ -1,13 +1,25 @@
 <template>
-  <Flipbook 
-  class="flipbook" 
-  :pages="isMobile ? pagesMobile : pagesDesktop" 
-  :perspective="5000"
-  :canZoomIn="false"
-  ref="flipbook"
-  @keypress="handler($event)"
-  >
-  </Flipbook>
+  <div class="container">
+    <vue-plyr >
+      <audio controls crossorigin playsinline >
+        <source
+            src="/song/CinemaParadiso.mp3"
+            type="audio/mp3"
+            
+        />
+      </audio>
+    </vue-plyr>
+
+    <Flipbook
+    class="flipbook" 
+    :pages="isMobile ? pagesMobile : pagesDesktop" 
+    :perspective="5000"
+    :canZoomIn="false"
+    ref="flipbook"
+    @keypress="handler($event)"
+    >
+    </Flipbook>
+  </div>
 </template>
 
 <script>
@@ -93,6 +105,7 @@ export default {
   cursor: pointer !important;
   width: 90vw;
   height: 90vh;
+  margin-top: 20px;
 }
 h3 {
   margin: 40px 0 0;
@@ -100,6 +113,9 @@ h3 {
 ul {
   list-style-type: none;
   padding: 0;
+}
+.container{
+  
 }
 li {
   display: inline-block;
